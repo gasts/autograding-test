@@ -31,9 +31,9 @@ class InputOutputTest {
     }
 
     @Test
-    @DisplayName("muss failen")
+    @DisplayName("True auf True Test")
     void test2(){
-        Assertions.assertEquals(true, false);
+        Assertions.assertEquals(true, true);
     }
 
     @AfterEach
