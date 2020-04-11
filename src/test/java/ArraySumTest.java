@@ -9,6 +9,11 @@ class ArraySumTest {
 
     @BeforeAll
     static void setUp() {
+        System.out.println("############################################");
+        System.out.println("############################################");
+        System.out.println("ArraySumTest");
+        System.out.println("############################################");
+        System.out.println("############################################");
         System.out.println("Call BeforeAll");
     }
 
